@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 function destructivelyAppendKitten(kitten) {
-  kittens.shift(kitten)
+  kittens.push(kitten)
   return kittens
 }
 
